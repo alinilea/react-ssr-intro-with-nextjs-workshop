@@ -1,0 +1,33 @@
+{
+  "name": "react-ssr-intro-with-nextjs-workshop",
+  "version": "1.0.0",
+  "description": "An introduction to React SSR with Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -- -p 4000",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinilea/react-ssr-intro-with-nextjs-workshop.git"
+  },
+  "keywords": [
+    "react",
+    "ssr",
+    "introduction",
+    "next.js"
+  ],
+  "author": "Alin Ilea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinilea/react-ssr-intro-with-nextjs-workshop/issues"
+  },
+  "homepage": "https://github.com/alinilea/react-ssr-intro-with-nextjs-workshop#readme",
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
