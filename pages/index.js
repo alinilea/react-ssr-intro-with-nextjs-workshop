@@ -12,6 +12,8 @@ function Index() {
 
       <h2>Welcome to React SSR intro with Next</h2>
 
+      <img src="/static/nextjs.png" alt="Next.js" />
+
       <style jsx>{`
         h2 {
           color: #222;
