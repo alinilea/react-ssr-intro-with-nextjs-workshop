@@ -10,6 +10,7 @@ function About() {
       <Head>
         <title>About page</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon.ico" />
       </Head>
 
       <p>This is <strong>About page</strong></p>
