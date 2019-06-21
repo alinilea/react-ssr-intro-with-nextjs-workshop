@@ -1,9 +1,17 @@
 import React from 'react';
+import Head from 'next/head';
+
+// Components
 import Paragraph from '../src/components/Paragraph';
 
 function Home() {
   return (
     <div>
+      <Head>
+        <title>Home Page</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+
       <p>This is <strong>Home page</strong></p>
 
       <h2>Welcome to React SSR intro with Next.js</h2>
