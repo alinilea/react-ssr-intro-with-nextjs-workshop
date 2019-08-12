@@ -49,9 +49,14 @@ b) add favicon.ico on each page.
 c) delete assets folder.
 
 #### step5/routing
-- demo: add client-side transitions between routes via a Link component.
-Custom routes (using props from URL).
-With URL object.
-Imperatively - you can also do client-side page transitions using the next/router.
+- demo: adding a navigation link to About page on Home page.
+Client-side transitions between routes via a Link component.
+- task: 
+a) add navigation links on each page.
+b) add Navbar component which includes the navigation links for all pages and implement it on each page.
+c) add Layout Component which includes Navbar component and receives children as props; implement it on each page.
+
+#### step6/fetching-data
+- work in progress
 
 #### next steps - work in progress
